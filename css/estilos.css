@@ -1,0 +1,46 @@
+#encabezado{
+    background-color: red;
+    color:white;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#bienvenida{
+    background-color:blue;
+    color:white;
+    height: 350px;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 60px;
+}
+
+#ingresar{
+    background-color:blue;
+    
+    color:white;
+    height: 450px;
+    
+    margin-top: 60px;
+}
+
+#vinculo{
+     color:white;
+     
+     font-style: oblique;
+    
+}
+
+.botonimagen{
+    background-image:url(../img/guardar.png);
+    background-repeat:no-repeat;
+    height:42px;
+    width:42px;
+    background-position:center;
+    background-color:transparent;
+    border-color:transparent;
+  }
+
+  
