@@ -60,7 +60,7 @@
 			      VALUES(:preg,:resp1,:resp2,:resp3,:resp4,:corr,:curs)";
 			$resultado=$base->prepare($sql);
 			$resultado->execute(array(":preg"=>$pregunta,":resp1"=>$respuesta1,":resp2"=>$respuesta2,":resp3"=>$respuesta3,":resp4"=>$respuesta4,":corr"=>$correcta,":curs"=>$curso));
-			header("Location:preguntas.php?curso=$curso");
+			//header("Location:preguntas.php?curso=$curso");
 		}
 
 	?>

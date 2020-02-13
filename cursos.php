@@ -45,8 +45,6 @@
 		if(ISSET($_POST["insertar"])){
 			$titulo = $_POST["titulo"];
 			$descripcion = $_POST["descripcion"];
-			
-			
 			$sql="INSERT INTO cursos (titulo,descripcion,profesor) 
 			      VALUES(:tit,:descrip,:profe)";
 			$resultado=$base->prepare($sql);
